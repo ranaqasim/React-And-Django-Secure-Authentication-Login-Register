@@ -59,14 +59,6 @@ cd backend
 pip install -r requirements.txt
 ```
 
-#### Environment Configuration
-Create a `.env` file in the backend directory:
-```env
-SECRET_KEY=your-secret-key-here
-DEBUG=True
-DATABASE_URL=sqlite:///db.sqlite3
-CORS_ALLOWED_ORIGINS=http://localhost:3000
-```
 
 #### Database Setup
 ```bash
@@ -91,12 +83,6 @@ cd frontend
 #### Install Dependencies
 ```bash
 npm install
-```
-
-#### Environment Configuration
-Create a `.env` file in the frontend directory:
-```env
-REACT_APP_API_URL=http://127.0.0.1:8000
 ```
 
 #### Start Frontend Server
